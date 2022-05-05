@@ -8,7 +8,7 @@ You need to have a Kubernetes cluster with ingress controller to deploy the appl
 
 2). Verify if repository added successfully
 
-helm repo list
+    helm repo list
 
 3). Update helm repos
 
