@@ -23,4 +23,13 @@ You need to have a Kubernetes cluster with ingress controller to deploy the appl
 	
     kubectl get ingress -n development
 
+## Destroy Resources
+
+1). Delete the deployment with helm
+	
+    helm delete new-deploy (Make sure to put the given deployment name)
+
+2). Destroy AWS resources 
+    
+    terraform destroy
 #
